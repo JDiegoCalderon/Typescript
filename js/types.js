@@ -8,5 +8,10 @@ var mynumber = 22;
 var mybool = false;
 var myvar = "hello";
 myvar = false;
-//strigs
-document.write(mystring);
+//Arrays
+var stringArray = ["item1", "item2", "item3"];
+var stringnumber = [2, 1, 3];
+var BooleanArray = [true, false, true];
+var AnyArray = [1, "hello", false];
+document.write(AnyArray.toString());
+//document.write(mynumber.toString());

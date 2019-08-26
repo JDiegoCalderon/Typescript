@@ -13,6 +13,12 @@ var mybool: boolean = false;
 var myvar: any = "hello";
 myvar = false;
 
-//strigs
+//Arrays
+var stringArray: string[] = ["item1", "item2", "item3"];
+var stringnumber: number[] = [2, 1, 3]
+var BooleanArray: boolean[]= [true, false, true]
+var AnyArray: any[] = [1, "hello", false]
 
-document.write(mystring);
+document.write(AnyArray.toString());
+
+//document.write(mynumber.toString());
