@@ -6,8 +6,13 @@ cadena = 22 + ""; //se ha transformado a un string
 
 var mynumber =22;
 
-var mystring: string = "hello";
+var mystring: string = "helloo";
 var mynumber: number = 22;
 var mybool: boolean = false;
 
-console.log(cadena);
+var myvar: any = "hello";
+myvar = false;
+
+//strigs
+
+document.write(mystring);
